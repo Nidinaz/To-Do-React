@@ -7,7 +7,7 @@ const Header = () => {
             <div className='settingIcons'>
             <FontAwesomeIcon icon={faBars} />          
               </div>
-            <div className='to_to_tist_name'>To-Do</div>
+            <div className='to_do_list_name'>To-Do</div>
             <div className='settingIcons'>
                 <FontAwesomeIcon icon={faMagnifyingGlass} />
             </div>
