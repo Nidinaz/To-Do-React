@@ -1,0 +1,54 @@
+
+header {
+  width: 100%;
+  height: auto;
+  padding: 20px 20px 20px 10px ;
+  background-color: rgba(209, 130, 150, .8);
+
+}
+
+h1 {
+  background-color: rgb(207, 137, 154, .4);
+  height: auto;
+  margin:0px;
+  padding:20px 20px 20px 30px;
+}
+
+#Listing {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  border: 5px solid red;
+  margin: 0px 100px 0px 100px;
+}
+
+
+#Columnright {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 50%;
+  border: 5px solid rgb(72, 255, 0);
+}
+
+#Columnleft {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 50%;
+  border: 5px solid rgb(0, 110, 255);
+}
+
+
+/* .buttons {
+
+} */
+
+.settingIcons {
+  display: flex;
+  width: auto;
+  height: auto;
+}
