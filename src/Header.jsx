@@ -1,7 +1,7 @@
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faBars, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 
-const Header1 = () => {
+const Header = () => {
     return (
         <header>
             <div className='settingIcons'>
@@ -15,4 +15,4 @@ const Header1 = () => {
     )
 };
 
-export default Header1;
+export default Header;
