@@ -1,8 +1,7 @@
-
 header {
   width: auto;
   height: auto;
-  padding: 20px 20px 20px 10px ;
+  padding: 20px 20px 20px 10px;
   background-color: rgba(226, 138, 160, 0.8);
   display: flex;
   flex-direction: row;
@@ -27,8 +26,8 @@ header {
 h1 {
   background-color: rgb(207, 137, 154, .4);
   height: auto;
-  margin:0px;
-  padding:20px 20px 20px 30px;
+  margin: 0px;
+  padding: 20px 20px 20px 30px;
 }
 
 #Listing {
@@ -42,28 +41,72 @@ h1 {
 
 
 #Columnright {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-basis: 50%;
   border: 5px solid rgb(72, 255, 0);
+  height: 50%;
 }
 
 #Columnleft {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-basis: 50%;
   border: 5px solid rgb(0, 110, 255);
+  height: 50%;
+}
+
+.containerButtons {
+  display: flex;
+  justify-content: space-between;
 }
 
 
-/* .buttons {
+/* CheckBoxes */
+/* We need to reset the native checkbox input styles, but keep it interactive to enable proper keyboard interaction and also to maintain access to the :focus state. */
+/* To accomplish this, we only need to set appearance: none. This removes nearly all inherited browser styles and gives us access to styling the input's pseudo elements. Notice we have two additional properties to complete the reset. */
 
+input[type="checkbox"] {
+  appearance: none;
+  background-color: #fff;
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid currentColor;
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
+  display: grid;
+  place-content: center;
+}
 
+input[type="checkbox"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em;
+  transform-origin: bottom left;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
 
+input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
 
-} */
+:root {
+  --form-control-disabled: #959495;
+}
 
+input[type="checkbox"]:disabled {
+  --form-control-color: var(--form-control-disabled);
+
+  color: var(--form-control-disabled);
+  cursor: not-allowed;
+}

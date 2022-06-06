@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './Header';
-import Checkbuttons from './Checkbuttons';
+import ToDoItem from './ToDoItem';
 
 
 
@@ -13,11 +13,15 @@ function App() {
       <h1>Today's <br></br> List_</h1>
       <div id='Listing'>
         <div id='Columnright'>
-
+          <ToDoItem checked={true} value="glfas"></ToDoItem>
+          <ToDoItem></ToDoItem>
+          <ToDoItem></ToDoItem>
+          <ToDoItem></ToDoItem>
         </div>
         <div id='Columnleft'></div>
       </div>
-      <Checkbuttons></Checkbuttons>
+
+
     </div>
   )
 };
