@@ -11,6 +11,7 @@ function App() {
     <div id='mainpage'>
       <Header></Header>
       <h1>Today's <br></br> List_</h1>
+      <div id='main-Container'>
       <div id='Listing'>
         {/* <div id='Columnright'> */}
           <ToDoItem checked={true} value="glfas"></ToDoItem>
@@ -20,7 +21,7 @@ function App() {
         {/* </div> */}
         {/* <div id='Columnleft'></div> */}
       </div>
-
+    </div>
 
     </div>
   )

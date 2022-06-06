@@ -25,7 +25,7 @@ const ToDoItem = (props) => {
 
     return (
         <div className="containerButtons">
-            <input type="checkbox" className="checkbox" onChange={handleCheck} defaultChecked={disabled}></input>
+            <input type="checkbox" className="checkboxe" onChange={handleCheck} defaultChecked={disabled}></input>
             <input className="input" id="text-input" type="text" disabled={disabled} value={props.value}/>
         </div>
     )

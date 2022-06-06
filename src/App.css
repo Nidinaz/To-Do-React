@@ -30,6 +30,11 @@ h1 {
   padding: 20px 20px 20px 30px;
 }
 
+#main-Container {
+  background-color: rgba(233, 215, 219, 0.2);
+  ;
+}
+
 #Listing {
   width: auto;
   height: auto;
@@ -39,6 +44,16 @@ h1 {
   /* border: 5px solid red; */
   margin: 0px 100px 0px 100px;
 
+}
+
+.containerButtons {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+.input {
+  margin: 0px 5px;
 }
 
 /* 
@@ -61,10 +76,6 @@ h1 {
   border: 5px solid rgb(0, 110, 255);
   height: 50%;
 } */
-
-.containerButtons {
-  display: flex;
-}
 
 
 /* CheckBoxes */
@@ -101,6 +112,7 @@ input[type="checkbox"]::before {
 
 input[type="checkbox"]:checked::before {
   transform: scale(1);
+  background-color: #98ff98;
 }
 
 /* :root {
