@@ -12,13 +12,13 @@ function App() {
       <Header></Header>
       <h1>Today's <br></br> List_</h1>
       <div id='Listing'>
-        <div id='Columnright'>
+        {/* <div id='Columnright'> */}
           <ToDoItem checked={true} value="glfas"></ToDoItem>
           <ToDoItem></ToDoItem>
           <ToDoItem></ToDoItem>
           <ToDoItem></ToDoItem>
-        </div>
-        <div id='Columnleft'></div>
+        {/* </div> */}
+        {/* <div id='Columnleft'></div> */}
       </div>
 
 

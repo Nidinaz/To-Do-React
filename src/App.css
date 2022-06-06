@@ -34,12 +34,14 @@ h1 {
   width: auto;
   height: auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
   border: 5px solid red;
   margin: 0px 100px 0px 100px;
+
 }
 
-
+/* 
 #Columnright {
   display: flex;
   flex-direction: column;
@@ -48,9 +50,9 @@ h1 {
   flex-basis: 50%;
   border: 5px solid rgb(72, 255, 0);
   height: 50%;
-}
+} */
 
-#Columnleft {
+/* #Columnleft {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -58,11 +60,10 @@ h1 {
   flex-basis: 50%;
   border: 5px solid rgb(0, 110, 255);
   height: 50%;
-}
+} */
 
 .containerButtons {
   display: flex;
-  justify-content: space-between;
 }
 
 
@@ -75,14 +76,15 @@ input[type="checkbox"] {
   background-color: #fff;
   margin: 0;
   font: inherit;
-  color: currentColor;
+  color: black;
   width: 1.15em;
   height: 1.15em;
-  border: 0.15em solid currentColor;
+  border: 0.15em solid #98ff98;
   border-radius: 0.15em;
   transform: translateY(-0.075em);
-  display: grid;
-  place-content: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 input[type="checkbox"]::before {
@@ -94,19 +96,21 @@ input[type="checkbox"]::before {
   box-shadow: inset 1em 1em;
   transform-origin: bottom left;
   clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+
 }
 
 input[type="checkbox"]:checked::before {
   transform: scale(1);
 }
 
-:root {
+/* :root {
   --form-control-disabled: #959495;
-}
-
+} */
+/* 
 input[type="checkbox"]:disabled {
   --form-control-color: var(--form-control-disabled);
 
   color: var(--form-control-disabled);
   cursor: not-allowed;
-}
+
+} */
