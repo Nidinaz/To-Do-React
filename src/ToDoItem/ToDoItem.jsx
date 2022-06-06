@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import "./ToDoItem.css";
 
 const ToDoItem = (props) => {
     // een prop is om gegevens door te geven aan een component,

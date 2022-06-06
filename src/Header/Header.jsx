@@ -1,5 +1,6 @@
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import { faBars, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import './Header.css'
 
 const Header = () => {
     return (

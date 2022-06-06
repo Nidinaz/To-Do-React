@@ -1,6 +1,6 @@
 import './App.css';
-import Header from './Header';
-import ToDoItem from './ToDoItem';
+import Header from './Header/Header';
+import ToDoItem from './ToDoItem/ToDoItem';
 
 
 

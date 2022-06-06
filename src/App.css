@@ -1,3 +1,10 @@
+
+/* Components in file  */
+/* Exposure new libary */
+/* use a component form libary */
+/* multiple pages using react */
+/* design authorisation pages */
+/* 
 header {
   width: auto;
   height: auto;
@@ -21,7 +28,7 @@ header {
   width: auto;
   height: auto;
   font-size: 20px;
-}
+} */
 
 h1 {
   background-color: rgb(207, 137, 154, .4);
@@ -30,19 +37,18 @@ h1 {
   padding: 20px 20px 20px 30px;
 }
 
-#main-Container {
+/* #main-Container {
   background-color: rgba(233, 215, 219, 0.2);
-  ;
-}
+} */
 
-#Listing {
+/* #Listing {
   width: auto;
   height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; */
   /* border: 5px solid red; */
-  margin: 0px 100px 0px 100px;
+  /* margin: 0px 100px 0px 100px;
 
 }
 
@@ -54,7 +60,7 @@ h1 {
 
 .input {
   margin: 0px 5px;
-}
+} */
 
 /* 
 #Columnright {
@@ -81,7 +87,7 @@ h1 {
 /* CheckBoxes */
 /* We need to reset the native checkbox input styles, but keep it interactive to enable proper keyboard interaction and also to maintain access to the :focus state. */
 /* To accomplish this, we only need to set appearance: none. This removes nearly all inherited browser styles and gives us access to styling the input's pseudo elements. Notice we have two additional properties to complete the reset. */
-
+/* 
 input[type="checkbox"] {
   appearance: none;
   background-color: #fff;
@@ -91,7 +97,7 @@ input[type="checkbox"] {
   width: 1.15em;
   height: 1.15em;
   border: 0.15em solid #98ff98;
-  border-radius: 0.15em;
+  border-radius: 0.25em;
   transform: translateY(-0.075em);
   display:flex;
   justify-content: center;
@@ -113,7 +119,7 @@ input[type="checkbox"]::before {
 input[type="checkbox"]:checked::before {
   transform: scale(1);
   background-color: #98ff98;
-}
+} */
 
 /* :root {
   --form-control-disabled: #959495;

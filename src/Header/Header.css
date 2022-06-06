@@ -1,0 +1,26 @@
+header {
+    width: auto;
+    height: auto;
+    padding: 20px 20px 20px 10px;
+    background-color: rgba(226, 138, 160, 0.8);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+  }
+
+
+.to_do_list_name {
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+  
+  .settingIcons {
+    display: flex;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+  }
+
